@@ -1,13 +1,13 @@
 # Welcome to Week One!! 
 
-This week, you will be introduced to Data Science and you will develop a solid foundation in data science and programming principles. You will get to understand the importance of data in today’s world and develop the practical skills necessary for basic data manipulation and analysis.
+This week, you will be introduced to Data Science and begin building a solid foundation in both data science and programming principles. You'll explore the significance of data in today’s world and develop practical skills for basic data manipulation and analysis.
 
-The lesson will be broken down into 3 main parts: 
+The lesson is structured into three main parts:
 
-[Introduction](https://github.com/NobleezIT/3MTT_Cohort2/blob/main/WEEK_1/Intro.md)
+1. [Introduction](https://github.com/NobleezIT/3MTT_Cohort2/blob/main/WEEK_1/Intro.md)
 
-[Python](https://github.com/NobleezIT/3MTT_Cohort2/blob/main/WEEK_1/Python.md)
+2. [Python](https://github.com/NobleezIT/3MTT_Cohort2/blob/main/WEEK_1/Python.md)
 
-[Working_with_Python](https://github.com/NobleezIT/3MTT_Cohort2/blob/main/WEEK_1/Working_with_python.md)
+3. [Working_with_Python](https://github.com/NobleezIT/3MTT_Cohort2/blob/main/WEEK_1/Working_with_python.md)
 
 Enjoy!!! 👍
