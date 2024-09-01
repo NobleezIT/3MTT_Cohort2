@@ -92,6 +92,7 @@ Click on the terminal icon for the menu on the top left corner and type the foll
 
 jupyter-notebook
 This will start the server and open a browser window displaying the Jupyter Notebook interface. You can now create a new notebook and start working on your project
+
 # Windows Miniconda
 
 Go to the Miniconda Download Page. Download the appropriate (32- or 64-Bit) Python 3.X version
@@ -142,13 +143,13 @@ Let’s install a few packages to get you started working with data in Jupyter N
 Python packages, so we will use pip instead of conda to install them.
 We will load:
 
-Matplotlib for visualizations
+**Matplotlib** for visualizations
 
-Seaborn for statistical Visualizations
+**Seaborn** for statistical Visualizations
 
-NLTK for text analysis
+**NLTK** for text analysis
 
-Scikit-learn for MAchine Learning
+**Scikit-learn** for MAchine Learning
 
 
 Note that some of these packages depend on other packages. For example, scikit-learn requires
