@@ -4,7 +4,7 @@ This week, you will be introduced to Data Science and you will develop a solid f
 
 The lesson will be broken down into 3 main parts: 
 
-[Introduction]("https://github.com/NobleezIT/3MTT_Cohort2/blob/main/WEEK_1/Intro.md")
+[Introduction](https://github.com/NobleezIT/3MTT_Cohort2/blob/main/WEEK_1/Intro.md)
 
 [Python]
 
