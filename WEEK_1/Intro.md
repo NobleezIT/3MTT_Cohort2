@@ -1,7 +1,7 @@
 # What is Data
 Data is a word we hear everywhere nowadays. In general, data is a collection of facts, information, and statistics and this can be in various forms such as numbers, text, sound, images, or any other format.
 
-![alt text](what-is-data_ver_1.jpg)
+![alt text](Images/what-is-data_ver_1.jpg)
 
 # Types of data
 
@@ -143,7 +143,7 @@ Software and machine learning algorithms are used to gain deeper insights, predi
 Data scientists work together with analysts and businesses to convert data insights into action. They make diagrams, graphs, and charts to represent trends and predictions. Data summarization helps stakeholders understand and implement results effectively.
 
 
-![alt text](data-science-process-2.webp)
+![alt text](Images/data-science-process-2.webp)
 
 # What does a data scientist do?
 A data scientist can use a range of different techniques, tools, and technologies as part of the data science process. Based on the problem, they pick the best combinations for faster and more accurate results.
@@ -152,7 +152,7 @@ A data scientist’s role and day-to-day work vary depending on the size and req
 
 However, in smaller teams, a data scientist may wear several hats. Based on experience, skills, and educational background, they may perform multiple roles or overlapping roles. In this case, their daily responsibilities might include engineering, analysis, and machine learning along with core data science methodologies. 
 
-![alt text](DataScienceLifeCycle.webp)
+![alt text](Images/DataScienceLifeCycle.webp)
 
 ## Roles in Data
 
