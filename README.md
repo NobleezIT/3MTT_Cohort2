@@ -1,4 +1,4 @@
-## **Welcome to the Repository of 3MTT Cohort 2 Training Lessons for Data Science Fellows**
+## **Welcome to the Repository of 4U Academy's 3MTT Cohort 2 Training Lessons for Data Science Fellows**
 
 This repository will contain weekly lessons covering the topics discussed in class. 
 It will serve not only as documentation of the coursework but also as a valuable learning resource for the fellows. 
