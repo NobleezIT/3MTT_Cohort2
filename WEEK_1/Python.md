@@ -114,12 +114,16 @@ First, let’s verify that Miniconda was installed. We will use the Anaconda Pro
 to the Start Menu and search for the Anaconda Prompt. Anaconda Prompt is the Command Line
 Interface (CLI) we will use with Miniconda ( ). In the shell, type:
 
-```conda --version```
+```
+conda --version
+```
 
 A number should be returned. This is the version number of conda that you have installed.
 Now we need to install a few key packages. In the Anaconda Prompt, type
 
-```conda install jupyter```
+```
+conda install jupyter
+```
 
 When prompted with 
 
