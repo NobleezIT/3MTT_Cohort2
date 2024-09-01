@@ -6,7 +6,7 @@ The lesson will be broken down into 3 main parts:
 
 [Introduction](https://github.com/NobleezIT/3MTT_Cohort2/blob/main/WEEK_1/Intro.md)
 
-[Python]
+[Python](https://github.com/NobleezIT/3MTT_Cohort2/blob/main/WEEK_1/Python.md)
 
 [Working_with_Python]
 
