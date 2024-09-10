@@ -201,4 +201,4 @@ Your country
 
 3. Write an example for different Python data types such as Number(Integer, Float, Complex), String, Boolean, List, Tuple, Set and Dictionary.
 
-Proceed to >> [Week 2] :blush:
+Proceed to >> [Week 2](https://github.com/NobleezIT/3MTT_Cohort2/blob/main/WEEK_2/dtypes.md) :blush:
