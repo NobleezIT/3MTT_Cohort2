@@ -1820,3 +1820,22 @@ The list of the values is a view of the dictionary, meaning that any changes don
 
 
 ### For more on the python data types, check out the documentation [here](https://docs.python.org/3/library/stdtypes.html)
+
+# Week Two Exercise
+1. How do you declare a variable in Python that stores your name?
+2. Write a Python program to calculate the length of a string. 
+3. Write a Python program to sum all the items in a list. 
+4. Write a Python program to multiplies all the items in a list.
+5. The following is a list of 10 students ages:
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+- Sort the list and find the min and max age
+- Add the min age and the max age again to the list
+- Find the median age (one middle item or two middle items divided by two)
+- Find the average age (sum of all items divided by their number )
+- Find the range of the ages (max minus min)
+- Compare the value of (min - average) and (max - average), use abs() method
+
+6. Create an empty dictionary called dog
+Add name, color, breed, legs, age to the dog dictionary
+
+Proceed to Week_3
