@@ -8,3 +8,4 @@ We wish you an exciting and enriching learning experience!  📖✏️😊
 
 
 [Week One](https://github.com/NobleezIT/3MTT_Cohort2/tree/main/WEEK_1)
+[Week Two](https://github.com/NobleezIT/3MTT_Cohort2/blob/main/WEEK_2/dtypes.md)
