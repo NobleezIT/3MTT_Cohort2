@@ -380,7 +380,7 @@ a = "Hello, World!"
 print(len(a))
 ```
 
-Check String
+### Check String
 
 To check if a certain phrase or character is present in a string, we can use the keyword in.
 
@@ -430,21 +430,6 @@ greet.find('o')
 
 
 
-
-```python
-greet
-```
-
-
-    ---------------------------------------------------------------------------
-
-    NameError                                 Traceback (most recent call last)
-
-    Cell In[1], line 1
-    ----> 1 greet
-    
-
-    NameError: name 'greet' is not defined
 
 
 
@@ -638,7 +623,7 @@ print(challenge.count('y', 7, 14)) # 1,
 print(challenge.count('th')) # 2`
 ```
 
-You can access more string methods [here](https://www.w3schools.com/python/python_strings_methods.asp)
+You can access more string methods in the python documentation [here](https://docs.python.org/3/library/stdtypes.html#string-methods)
 
 
 ```python
@@ -1832,3 +1817,6 @@ Get Values
 The values() method will return a list of all the values in the dictionary.
 
 The list of the values is a view of the dictionary, meaning that any changes done to the dictionary will be reflected in the values list.
+
+
+### For more on the python data types, check out the documentation [here](https://docs.python.org/3/library/stdtypes.html)
