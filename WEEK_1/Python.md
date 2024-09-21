@@ -78,9 +78,11 @@ Follow these steps to install Jupyter Notebook on your Android device:
 
 Open the Google Play Store on your Android device.
 
-Search for “Pydroid 3 — IDE for Python 3” and install the app.
+Search for **“Pydroid 3 — IDE for Python 3”** and install the app.
 
-Once installed, you will need to install Pydroid repository plugin from google play store in order to install libraries in the app
+Once installed, you will need to install 
+**Pydroid repository plugin**
+from google play store in order to install libraries in the app
 
 After the installation is complete, open the Pydroid 3 - IDE for Python 3 app
 
