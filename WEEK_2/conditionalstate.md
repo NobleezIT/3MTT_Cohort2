@@ -28,11 +28,11 @@ if b > a:
 
 In this example we use two variables, a and b, which are used as part of the if statement to test whether b is greater than a. As a is 33, and b is 200, we know that 200 is greater than 33, and so we print to screen that "b is greater than a".
 
-Indentation
+## Indentation
 
 Python relies on indentation (whitespace at the beginning of a line) to define scope in the code. Other programming languages often use curly-brackets for this purpose.
 
-Elif
+### Elif
 
 The elif keyword is Python's way of saying "if the previous conditions were not true, then try this condition".
 
@@ -73,7 +73,7 @@ else:
 
 In this example a is equal to b, so the first condition is not true, but the elif condition is true, so we print to screen that "a and b are equal".
 
-Else
+### Else
 The else keyword catches anything which isn't caught by the preceding conditions.
 
 
@@ -103,7 +103,7 @@ else:
   print("b is not greater than a")
 ```
 
-Short Hand If
+### Short Hand If
 
 If you have only one statement to execute, you can put it on the same line as the if statement.
 
@@ -146,7 +146,7 @@ if a > b and c > a:
   print("Both conditions are True")
 ```
 
-Or
+### Or
 The or keyword is a logical operator, and is used to combine conditional statements:
 
 Example
@@ -161,7 +161,7 @@ if a > b or a > c:
   print("At least one of the conditions is True")
 ```
 
-Not
+### Not
 The not keyword is a logical operator, and is used to reverse the result of the conditional statement:
 
 Example
@@ -175,7 +175,7 @@ if not a > b:
   print("a is NOT greater than b")
 ```
 
-Nested If
+## Nested If
 You can have if statements inside if statements, this is called nested if statements.
 
 
@@ -191,14 +191,12 @@ if x > 10:
 
 ```
 
-## While Loops
-
-Python Loops
+# Python Loops
 Python has two primitive loop commands:
 
-while loops
-for loops
-The while Loop
+- while loops
+- for loops
+# The while Loop
 With the while loop we can execute a set of statements as long as a condition is true.
 
 
@@ -213,7 +211,7 @@ while i < 6:
 
 The while loop requires relevant variables to be ready, in this example we need to define an indexing variable, i, which we set to 1.
 
-The break Statement
+## The break Statement
 With the break statement we can stop the loop even if the while condition is true:
 
 Example
@@ -229,7 +227,7 @@ while i < 6:
   i += 1
 ```
 
-The continue Statement
+## The continue Statement
 With the continue statement we can stop the current iteration, and continue with the next:
 
 
@@ -242,7 +240,7 @@ while i < 6:
   print(i)
 ```
 
-The else Statement
+## The else Statement
 With the else statement we can run a block of code once when the condition no longer is true:
 
 
@@ -266,7 +264,7 @@ else:
 
 
 
-Python For Loops
+# Python For Loops
 
 A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
 
@@ -287,7 +285,7 @@ for x in fruits:
 
 The for loop does not require an indexing variable to set beforehand.
 
-Looping Through a String
+## Looping Through a String
 Even strings are iterable objects, they contain a sequence of characters:
 
 
@@ -299,7 +297,7 @@ for x in "banana":
   print(x)
 ```
 
-The break Statement
+## The break Statement
 With the break statement we can stop the loop before it has looped through all the items:
 
 
@@ -340,7 +338,8 @@ for x in fruits:
   print(x)
 ```
 
-The range() Function
+## The range() Function
+
 To loop through a set of code a specified number of times, we can use the range() function,
 The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at a specified number.
 
@@ -378,7 +377,7 @@ for x in range(2, 30, 3):
   print(x)
 ```
 
-Else in For Loop
+## Else in For Loop
 The else keyword in a for loop specifies a block of code to be executed when the loop is finished:
 
 
@@ -407,7 +406,7 @@ else:
   print("Finally finished!")
 ```
 
-Nested Loops
+## Nested Loops
 A nested loop is a loop inside a loop.
 
 The "inner loop" will be executed one time for each iteration of the "outer loop":
@@ -425,7 +424,7 @@ for x in adj:
     print(x, y)
 ```
 
-The pass Statement
+## The pass Statement
 for loops cannot be empty, but if you for some reason have a for loop with no content, put in the pass statement to avoid getting an error.
 
 
@@ -434,3 +433,71 @@ for loops cannot be empty, but if you for some reason have a for loop with no co
 for x in [0, 1, 2]:
   pass
 ```
+
+
+## List Comprehension
+
+List comprehension offers a shorter syntax when you want to create a new list based on the values of an existing list.
+
+Example:
+
+Based on a list of fruits, you want a new list, containing only the fruits with the letter "a" in the name.
+
+Without list comprehension you will have to write a for statement with a conditional test inside:
+```
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = []
+
+for x in fruits:
+  if "a" in x:
+    newlist.append(x)
+
+print(newlist)
+```
+
+With list comprehension you can do all that with only one line of code:
+
+```
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+newlist = [x for x in fruits if "n" in x]
+
+print(newlist)
+```
+
+### The Syntax
+newlist = [expression for item in iterable if condition == True]
+The return value is a new list, leaving the old list unchanged.
+
+Condition
+The condition is like a filter that only accepts the items that valuate to True.
+
+```
+df.columns = [x for x in df.columns if x != ['email', 'age']]
+```
+
+```
+# Example
+# Only accept items that are not "apple":
+
+newlist = [x for x in fruits if x != "apple"]
+```
+
+The condition if x != "apple"  will return True for all elements other than "apple", making the new list contain all fruits except "apple".
+
+The condition is optional and can be omitted:
+
+### Iterable
+The iterable can be any iterable object, like a list, tuple, set etc.
+
+```
+# Example
+# You can use the range() function to create an iterable:
+
+newlist = [x for x in range(100) if x % 2 == 0]
+newlist
+```
+
+
+### Expression
+The expression is the current item in the iteration, but it is also the outcome, which you can manipulate before it ends up like a list item in the new list.
