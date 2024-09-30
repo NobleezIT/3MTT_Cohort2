@@ -1098,3 +1098,7 @@ We can look at sales trends, assuming you have ORDER_DATE, you can plot the tren
 
 # Assignment
 Download and load the dataset in this [address](https://raw.githubusercontent.com/justmarkham/DAT8/master/data/chipotle.tsv) in a notebook. Perform EDA and clean the data where needed.
+
+
+Congratulations for Completing Data Preprocessing. 
+Continue to MAtplotlib to learn visualization [here](https://github.com/NobleezIT/3MTT_Cohort2/blob/main/Week_5/matplotlibmain.md)
