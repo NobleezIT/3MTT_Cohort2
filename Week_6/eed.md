@@ -319,16 +319,5 @@ def download_data(n, age_range, gender, smoking):
     return dcc.send_data_frame(filtered.to_csv, "filtered_data.csv", index=False)
 
 app.run_server(debug=True)
-```
 
----
-
-## **This completes:**
-
-✔ Interactive 3D Visualization
-✔ Predictive Surface Model
-✔ Clustering Visualization
-✔ Dashboard Construction
-✔ Filter Controls and Callbacks
-✔ Downloadable Data Export Feature
 
